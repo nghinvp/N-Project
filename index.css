@@ -1,0 +1,29 @@
+#intro{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: fit-content;
+}
+
+body {
+    background-color: rgb(72, 87, 55);
+}
+
+#upper{
+  font-family: 'Noto Serif', serif;
+  font-size: 3em;
+  width: 80%;
+  margin:auto;
+  color: rgb(240,234,217);
+}
+
+#lower{
+    font-family: 'Noto Serif', serif;
+    font-size: 2em;
+    padding-top: .5em;
+    background: -webkit-linear-gradient(rgb(243,20,120), rgb(247, 120, 183));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
